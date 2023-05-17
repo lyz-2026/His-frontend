@@ -31,6 +31,7 @@ import MenZhenZB from '../components/MenZhenZB.vue'
 import Admin from '../components/Admin.vue'
 import Schedule from '../components/Schedule.vue'
 import CheckItem from '../components/CheckItem.vue'
+import User from '../components/User.vue'
 
 import JianCha from '../components/JianCha.vue'
 Vue.use(Router)
@@ -108,6 +109,11 @@ export default new Router({
       path:'/JianCha',
       name:'JianCha',
       component:JianCha
+    },
+    {
+      path:'/User',
+      name:'User',
+      component:User
     }
   ]
 });
